@@ -1,0 +1,27 @@
+# Node modules (never push this to Git)
+node_modules/
+
+# Environment variables
+.env
+
+# Uploaded files (if storing resumes locally)
+uploads/
+
+# Logs
+*.log
+logs/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# npm cache
+.npm/
+
+# Optional OS trash folder
+.Trashes
