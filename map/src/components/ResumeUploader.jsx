@@ -31,7 +31,7 @@ const ResumeUploader = () => {
     formData.append("resume", file);
 
     try {
-      const response = await fetch("https://bc-zeta-seven.vercel.app/api/upload", {
+      const response = await fetch("https://skillmap-1.onrender.com/api/upload", {
         method: "POST",
         body: formData,
       });
