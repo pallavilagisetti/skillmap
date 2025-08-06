@@ -26,7 +26,7 @@ function Home() {
 
     try {
 
-      const response = await axios.post('http://localhost:5000/api/upload', formData);
+      const response = await axios.post('https://skillmap-1.onrender.com/api/upload', formData);
 
       const { extractedSkills, matchedSkills, missingSkills,candidateName,yearsOfExperience } = response.data;
 
